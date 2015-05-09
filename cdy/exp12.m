@@ -30,3 +30,5 @@ plot(x,truth,'b',x,result,'r');
 
 figure
 plot(x,result,'r');
+
+a = 1
