@@ -1,0 +1,9 @@
+function re_link = findLinkedInGraphic(matrix)
+
+dealmatrix = matrix;
+
+judge = 0;
+
+judge = ifGraphicEmptry(dealmatrix);
+
+w

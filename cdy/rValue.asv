@@ -1,0 +1,7 @@
+function re_value = rValue(x,y);
+
+mean_x = mean(x0;
+mean_y = mean(y);
+
+temp1 = sum((x - mean_x) .* (y - mean_y));
+temp2 = sum((x - mean_x)^2)*

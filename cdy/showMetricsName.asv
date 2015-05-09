@@ -1,0 +1,14 @@
+function [] = showMetricsName(numlist,namelist)
+
+[row column] = size(numlist);
+
+for i = 1:row
+    for j = 1:column
+        pos = numlist(i,j);
+        % disp(namelist(pos));  % ²»Êä³ö±àhºÅÂë
+        
+        str = sprintf('%i.%s',pos,namelist(pos));
+        str = [num2str(4) '.' ];
+        disp(str);
+    end
+end

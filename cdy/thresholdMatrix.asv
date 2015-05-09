@@ -1,0 +1,17 @@
+function re_matrix = thresholdMatrix(matrix,threshold);
+
+re_matrix = matrix;
+
+[row column byte] = size(matrix);
+
+for i = 1:row
+    for j = 1;column
+        if i ~= j
+            if re_matrix(i,j) > threshold
+            
+        end
+        end
+        
+    end
+end
+
