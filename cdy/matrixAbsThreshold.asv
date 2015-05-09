@@ -1,0 +1,14 @@
+function re_matrix = matrixAbsThreshold(matrix,threshold);
+
+[row column] = size(matrix);
+re_matrix = matrix;
+
+for i = 1:row
+    for j = 1:column
+        if i~= j
+            if abs(matrix(i,j)) > threshold
+                
+            end
+        end
+    end
+end

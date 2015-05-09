@@ -1,0 +1,23 @@
+function re_point = findLinkedPoint(matrix,point)
+
+re_point = [];
+
+dealmatrix = matrix;
+[row column] = size(matrix);
+
+stack = [];
+
+stack = stackpush(stack,point);
+
+judge = 0;
+
+while judge == 0
+    [stack point] = stackpop(stack);
+    
+    if ifInMatrix(f)
+    
+    for i = 1:row
+        
+    end
+    
+end
